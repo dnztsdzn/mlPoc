@@ -1,0 +1,12 @@
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/bin/Debug/net7.0/Domain.deps.json
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/bin/Debug/net7.0/Domain.dll
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/obj/Debug/net7.0/Domain.dll
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/obj/Debug/net7.0/Domain.pdb
+/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/Domain/obj/Debug/net7.0/ref/Domain.dll
