@@ -15,6 +15,9 @@ export default observer(function NavBar() {
                 <Menu.Item as={NavLink} to='/chatbot' name='Chat Gpt' />
                 <Menu.Item as={NavLink} to='/dalle' name='Dall-e' />
                 <Menu.Item as={NavLink} to='/whisper' name='Whisper' />
+                <Menu.Item as={NavLink} to='/finetune' name='Fine Tune' />
+                <Menu.Item as={NavLink} to='https://app.roqs.basf.net/generativeai' name='Generative AI' />
+                {/* <Menu.Item as={NavLink} to='/promptgenerator' name='Prompt Generator' /> */}
                 {/* <Menu.Item as={NavLink} to='/activities' name='Activities' />
                 <Menu.Item as={NavLink} to='/errors' name='Errors' /> */}
                 {/* <Menu.Item>

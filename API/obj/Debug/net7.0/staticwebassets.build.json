@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aLxKEVFsWIOc6NqOm3bD4poF79L5vFReH468kGZwqPo=",
+  "Hash": "5DpkCpol5lBjOAe2W1xmiDzq7AiCL6o7qvlfI3TbuJM=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -204,12 +204,12 @@
       "OriginalItemSpec": "wwwroot/static/js/787.627756db.chunk.js.map"
     },
     {
-      "Identity": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/static/js/main.304e8d1e.js",
+      "Identity": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/static/js/main.d7ad1654.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.304e8d1e.js",
+      "RelativePath": "static/js/main.d7ad1654.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/static/js/main.304e8d1e.js"
+      "OriginalItemSpec": "wwwroot/static/js/main.d7ad1654.js"
     },
     {
-      "Identity": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/static/js/main.304e8d1e.js.LICENSE.txt",
+      "Identity": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/static/js/main.d7ad1654.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.304e8d1e.js.LICENSE.txt",
+      "RelativePath": "static/js/main.d7ad1654.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/static/js/main.304e8d1e.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/static/js/main.d7ad1654.js.LICENSE.txt"
     },
     {
-      "Identity": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/static/js/main.304e8d1e.js.map",
+      "Identity": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/static/js/main.d7ad1654.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.304e8d1e.js.map",
+      "RelativePath": "static/js/main.d7ad1654.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,7 +252,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/static/js/main.304e8d1e.js.map"
+      "OriginalItemSpec": "wwwroot/static/js/main.d7ad1654.js.map"
     },
     {
       "Identity": "/Users/deniztasdizen/Desktop/tsmlpoc/mlPoc/API/wwwroot/static/media/brand-icons.278156e41e0ad908cf7f.woff2",

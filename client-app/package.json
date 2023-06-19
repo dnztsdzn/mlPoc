@@ -17,6 +17,7 @@
     "axios": "^1.4.0",
     "date-fns": "^2.30.0",
     "formik": "^2.2.9",
+    "fs": "^0.0.1-security",
     "mobx": "^6.9.0",
     "mobx-react-lite": "^3.4.3",
     "openai": "^3.2.1",
@@ -65,5 +66,8 @@
     "@types/react-datepicker": "^4.11.2",
     "@types/react-infinite-scroller": "^1.2.3",
     "@types/uuid": "^9.0.1"
-  }
+  },
+  "browser": {
+    "fs": false
+ }
 }

@@ -10,6 +10,8 @@ import { Prompt } from '../models/prompt';
 import { string } from 'yup';
 import { DalleParameters } from '../models/dalleParameters';
 import { ChatTest } from '../models/chatTest';
+import { FineTuneTest } from '../models/fineTuneModel';
+import { CompletionParametersModel } from '../models/completionParametersModel';
 
 const sleep = (delay: number) => {
     return new Promise((resolve) => {
@@ -88,11 +90,23 @@ const Activities = {
     attend: (id: string) => requests.post<void>(`/activities/${id}/attend`, {})
 }
 
-
 const ml = {
-    chatGptPrompt: (chatDto: ChatTest[]) => requests.post<string>('/openai/chatgpt', chatDto),
+    chatGptPrompt: (chatTest:ChatTest[]) => requests.post<string>('/openai/chatgpt', chatTest),
+    completionOpenai: (completionParameters:CompletionParametersModel) => requests.post<string>('/openai/completion', completionParameters),
+    deleteFile: (toDeletefileId: Prompt) => requests.post<void>('/openai/deletefile', toDeletefileId),
+    fineTuneTraining: (trainfileId: Prompt) => requests.post<void>('/openai/finetunetraining', trainfileId),
+    getListFiles: () => requests.get<string[]>('/openai/getFileList'),
+    getListFineTunes: () => requests.get<string[]>('/openai/getFileList'),
+    getFineTunedModelsList: () => requests.get<string[]>('/openai/finetunedmodelslist'),
     //whisperAudio: () => requests.post<string>('/openai/whisper',{}),
     dalleImage: (dalleParameters: DalleParameters) => requests.post<string[]>('/openai/dalleimage', dalleParameters),
+    uploadFile: (file: any,purpose:string) => {
+        let formData = new FormData();
+        formData.append('File', file);
+        return axios.post<string>('/openai/uploadFile',{file,purpose}, {
+            headers: { 'Content-Type': 'multipart/form-data' }
+        })
+    },
     whisperAudio: (file: any,transcribeOrTranslate:string) => {
         let formData = new FormData();
         formData.append('File', file);

@@ -11,6 +11,8 @@ import App from "../layout/App";
 import RequireAuth from "./RequireAuth";
 import Whisper from "../../features/ai/Whisper";
 import Dalle from "../../features/ai/Dalle";
+import PromptGenerator from "../../features/ai/PromptGenerator";
+import FineTune from "../../features/ai/FineTune";
 
 export const routes: RouteObject[] = [
     {
@@ -29,6 +31,8 @@ export const routes: RouteObject[] = [
             {path: 'chatbot', element: <AiPage />},
             {path: 'whisper', element: <Whisper />},
             {path: 'dalle', element: <Dalle />},
+            {path: 'finetune', element: <FineTune />},
+            {path: 'promptgenerator', element: <PromptGenerator />},
             {path: 'server-error', element: <ServerError />},
             {path: '*', element: <Navigate replace to='/not-found' />},
         ]
